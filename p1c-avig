@@ -52,7 +52,7 @@ void draw()
         line (220, 242, 255, 242 );
          
   }
-  //// ACTION:  Follow the mouse.
+  //// ACTION:  Sun moves across sky
     {
             sunX=  sunX + 1;
             if (sunX > width) sunX=  0;
@@ -62,23 +62,23 @@ void draw()
     //// HERO
     {    
     fill ( 250, 50, 250 );
-    rect (25, 300, 80, 80 );
+    rect (25, 300, 80, 80 );   // body
     fill (0);
-    text ("SAM",  50, 350 );    
+    text ("SAM",  50, 350 );    // name
     fill ( 204, 0, 204 );
-    ellipse (65, 270, 60, 60 );
+    ellipse (65, 270, 60, 60 );   // head
     fill ( 204, 0, 204 );
-    ellipse ( 45, 385, 20, 10 );
+    ellipse ( 45, 385, 20, 10 );  // left eye
     fill ( 204, 0, 204 );
-    ellipse ( 85, 385, 20, 10 );
+    ellipse ( 85, 385, 20, 10 );   // right eye
     fill ( 255, 255, 255 );
-    ellipse ( 50, 270, 10, 20 );
+    ellipse ( 50, 270, 10, 20 );  // left foot
     fill ( 255, 255, 255 );
-    ellipse ( 80, 270, 10, 20 );
+    ellipse ( 80, 270, 10, 20 );  // right foot
     fill ( 0, 0, 0 );
-    ellipse ( 50, 270, 5, 5 );
+    ellipse ( 50, 270, 5, 5 );  // left pupil
     fill ( 0, 0, 0 );
-    ellipse ( 80, 270, 5, 5 );
+    ellipse ( 80, 270, 5, 5 );  // right pupil
   
  //gold nugget
 {
