@@ -80,9 +80,9 @@ void draw()
     }
     //MOVE SAM
     {
-            xSam = xSam+dxSam;
+            xSam = xSam+dxSam;   
             ySam = ySam+dySam;
-            if (dist(xSam, ySam, xGold, yGold)<20);
+            if (dist(xSam, ySam, xGold, yGold)<50);
     }
     
  
@@ -109,6 +109,7 @@ void draw()
     ellipse ( xSam+80, ySam+270, xSam+5, ySam+5 );
    
  //GOLD NUGGET:
+
 {  
   stroke (255,255, 0 );
   fill (255, 255, 0 );
