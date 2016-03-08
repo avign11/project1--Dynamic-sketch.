@@ -23,6 +23,8 @@ void setup()
        frameRate = 30;
        xSam = xSam + dxSam;
        dxSam = (xGold - xSam) / frameRate;
+       xGold = random (50, width-50);
+       yGold = random (horizon+50, height-50);
 }
 
 //DRAW: sky, ground, house, tree, sun//
